@@ -23,6 +23,26 @@
     </style>
 </head>
 <body>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-md-6 messageliste">
+
+                    </div>
+                <div class="col-md-6">
+                       <div class="col-md-offset-2 col-md-10">
+                                <blockquote>
+                                        <textarea name="sms" id="sms" cols="4"  class="form-control"></textarea>
+                                    </blockquote>
+                            </div>
+                       <div class="col-md-offset-9 col-md-3">
+                                <button type="button" class="btn btn-success" id="envoyer" >Envoyer</button>
+                            </div>
+
+                   </div>
+            </div>
+    +</div>
+
+
 
 
 
