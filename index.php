@@ -29,7 +29,7 @@
 $ch = curl_init();
 
 // set url
-curl_setopt($ch, CURLOPT_URL, "https://tchat-salon.herokuapp.com/salon");
+curl_setopt($ch, CURLOPT_URL, "https://aigulleur.herokuapp.com/salon");
 
 //return the transfer as a string
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -125,7 +125,7 @@ $salons= JSON_DECODE($output);
             console.log(data);
             $.ajax({
                 type: 'POST',
-                url: 'https://tchat-salon.herokuapp.com/subscribe',
+                url: 'https://aigulleur.herokuapp.com/subscribe',
                 data: $(this).serialize(),
                 success : function(response){
                     //$('.client').append('A message has been sent to server from this client!<br />');
