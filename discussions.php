@@ -41,7 +41,7 @@
         function waitForMsg(){
             $.ajax({
                 type: "GET",
-                url: "https://aigulleur.herokuapp.com/"+data.salon,
+                url: "https://aigulleur.herokuapp.com/messages/"+data.salon,
                 async: true,
                 cache: false,
                 success: function(data){
